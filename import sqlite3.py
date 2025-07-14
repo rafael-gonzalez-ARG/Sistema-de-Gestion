@@ -561,7 +561,7 @@ class SalesReportWindow:
         total_ventas = total_ventas if total_ventas is not None else 0  # Manejar si no hay ventas
         messagebox.showinfo("Total de Ventas", f"Total de ventas del día: ${total_ventas}")
 
-# Código principal
+
 if __name__ == "__main__":
     root = tk.Tk()  # Crea la ventana principal
     app = HeladeriaApp(root)  # Pasa la ventana principal a HeladeriaApp
